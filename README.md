@@ -16,7 +16,7 @@ python main.py
 ```
 
 ## Details
-utils: hyper-parameter setting (params.py) and decentralized data sampling (sampling.py)
-models: our decentralized learning algorithm, including client update and server update
-data: image data set (e.g., MNIST, Fashion-MNIST, Cifar10 and Cifar100) could be downloaded automatically from torchvision package
-save: we use the same random model initialization for all the experiments, blackbox attack models need to be pretrained
+* utils: hyper-parameter setting (params.py) and decentralized data sampling (sampling.py)
+* models: our decentralized learning algorithm, including client update and server update
+* data: image data set (e.g., MNIST, Fashion-MNIST, Cifar10 and Cifar100) could be downloaded automatically from torchvision package
+* save: we use the same random model initialization for all the experiments, blackbox attack models need to be pretrained
