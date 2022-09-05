@@ -20,3 +20,16 @@ python main.py
 * models: our decentralized learning algorithm, including client update and server update
 * data: image data set (e.g., MNIST, Fashion-MNIST, Cifar10 and Cifar100) could be downloaded automatically from torchvision package
 * save: we use the same random model initialization for all the experiments, blackbox attack models need to be pretrained
+
+
+## Acknowledgement
+This is the latest source code of **FedBVA**. If you find that it is helpful for your research, please consider to cite our paper:
+
+```
+@inproceedings{zhou2020adversarial,
+  title={Adversarial Robustness through Bias Variance Decomposition: A New Perspective for Federated Learning},
+  author={Zhou, Yao and Wu, Jun and Wang, Haixun and He, Jingrui},
+  booktitle={Proceedings of the 31th ACM International Conference on Information and Knowledge Management},
+  year={2022}
+}
+```
